@@ -1,0 +1,19 @@
+{
+  "name": "consmaven",
+  "version": "1.0.0",
+  "description": "Web development of consmaven",
+  "main": "index.js",
+  "scripts": {
+    "test": "All run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Arekkasu/Consmaven.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arekkasu/Consmaven/issues"
+  },
+  "homepage": "https://github.com/Arekkasu/Consmaven#readme"
+}
