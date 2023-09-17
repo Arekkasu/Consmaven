@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Arekkasu/Consmaven/issues"
   },
-  "homepage": "https://github.com/Arekkasu/Consmaven#readme"
+  "homepage": "https://github.com/Arekkasu/Consmaven#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
 }
