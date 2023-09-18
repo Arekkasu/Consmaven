@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="../../scripts/form_action.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form class="container-xxl mt-3">
+        <div class="mb-3">
+
+            <!--CAMPO DE CORREO-->
+
+            <p style="color: red; visibility: hidden;" id="warning">INGRESA UN CORREO VALIDO</p>
+            <label for="email-adress" class="form-label">Email address</label>
+            
+            <input type="email" class="form-control" id="email-adress" placeholder="name@example.com">
+        
+        </div>
+        <div class="mb-3">
+            <label for="textarea" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="text-area" rows="3"></textarea>
+        </div>
+
+        <button type="button" clas="mt-5" onclick="Imprimiemail()">HOLA</button>
+    </form>
+</body>
+</html>
