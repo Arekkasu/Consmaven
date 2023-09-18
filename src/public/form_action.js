@@ -12,13 +12,16 @@ function Imprimiemail(){
     let advertencia = document.querySelector("#warning");
     let text_area = document.querySelector("#text-area");
 
-    if( email.value === "" || email.value === null || text_area === "" || text_area === null){
+    if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)){
+        let text = "Email Invalido"
+        advertencia.innerHTML = text;
         advertencia.style.visibility = "visible";
-        alert("Ingresa o Rellene correctamente los datos");
+        alert("EMAIL INVALIDO");
     }
     else{
         alert(`Email: ${email.value}
-Text-area: ${text_area.value}`);
+        Text-area: ${text_area.value}`);
+        return {email, text_area}
     }
 
 }
