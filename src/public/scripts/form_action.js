@@ -17,11 +17,12 @@ function Imprimiemail(){
         advertencia.innerHTML = text;
         advertencia.style.visibility = "visible";
         alert("EMAIL INVALIDO");
+        return false
     }
     else{
         alert(`Email: ${email.value}
         Text-area: ${text_area.value}`);
-        return {email, text_area}
+        return true
     }
 
 }
