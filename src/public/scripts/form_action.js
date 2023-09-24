@@ -1,4 +1,4 @@
-console.log("RUNNING");
+const Regexpr = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 
 function Imprimiemail(){
 
@@ -12,12 +12,19 @@ function Imprimiemail(){
     let advertencia = document.querySelector("#warning");
     let text_area = document.querySelector("#text-area");
 
-    if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)){
+    if (!Regexpr.test(email.value)){
         let text = "Email Invalido"
+
         advertencia.innerHTML = text;
         advertencia.style.visibility = "visible";
-        alert("EMAIL INVALIDO");
+
+        
+
+
+        alert("Email Invalido, Por favor ingresa un email valido");
+        
         return false
+    
     }
     else{
         alert(`Email: ${email.value}
