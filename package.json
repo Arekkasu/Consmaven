@@ -2,7 +2,7 @@
   "name": "consmaven",
   "version": "1.0.0",
   "description": "Web development of consmaven",
-  "main": "src/index.js",
+  "main": "./index.js",
   "scripts": {
     "start": "./index.js"
   },
