@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
 
 .hero{
     height: 100vh;
-    background-image:var(--background), url(../FOTOS/IMG-BACKGROUND\ 1\ .png);
+    background-image:var(--background), url(../images/IMG-BACKGROUND\ 1\ .png);
     background-position: scaleX(-1); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,6 +372,7 @@ img{
     font-size: 30px;
 
 }
+
 
 .testimony__container{
     padding-top: 50px;
