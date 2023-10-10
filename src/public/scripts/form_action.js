@@ -27,8 +27,7 @@ function Imprimiemail(){
     
     }
     else{
-        alert(`Email: ${email.value}
-        Text-area: ${text_area.value}`);
+        alert(`CORREO ENVIADO EXICTOSAMENTE A ${email.value}`);
         return true
     }
 

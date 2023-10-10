@@ -14,4 +14,4 @@ app.use(express.static(path.join(__dirname, 'src/public')));
 
 app.use(require('./src/routes/routes'));
 
-app.listen(7000, () => console.log('Servidor corriendo en el puerto 7000'));
+app.listen(5000, () => console.log('Servidor corriendo en el puerto 7000'));

@@ -20,7 +20,7 @@ const objeto = {
 router.post('/send-email', async (req, res) => {
     
 
-    const imagePath = path.join(__dirname, '../public/images/Untitled.jpg');
+    const imagePath = path.join(__dirname, '../../prueba.html');
     //PARA VERIFICAR SI ESTA RECIBIENDO LOS DATOS
     console.log(req.body);
     const {email, message} = req.body;
