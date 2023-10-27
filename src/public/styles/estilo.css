@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
 
 .hero{
     height: 100vh;
-    background-image:var(--background), url(../images/IMG-BACKGROUND\ 1\ .png);
+    background-image:var(--background), url(../images/WELCOME.png);
     background-position: scaleX(-1); 
     background-repeat: no-repeat;
     background-size: cover;
