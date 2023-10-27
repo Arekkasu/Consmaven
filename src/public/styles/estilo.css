@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
 
 .hero{
     height: 100vh;
-    background-image:var(--background), url(../images/WELCOME.png);
+    background-image:var(--background), url(https://i.blogs.es/984242/mega-man-x/1366_2000.jpeg);
     background-position: scaleX(-1); 
     background-repeat: no-repeat;
     background-size: cover;
